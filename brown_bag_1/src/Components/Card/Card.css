@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  position: relative;
+  background-color: bisque;
+  > img {
+    border: solid 1px grey;
+    margin: 25px;
+    height: 200px;
+    border-radius: 5px;
+  }
+}
